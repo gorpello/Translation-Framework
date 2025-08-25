@@ -1,5 +1,6 @@
+# Translation framework
 
-# Translate a Simple Message
+## Ex 1: Translate a Simple Message
 
 **Translate a Simple Message** is a simple SwiftUI application that lets you enter text, translate it, and immediately display the translated result in the same interface.  
 
@@ -35,6 +36,35 @@ Your first task is to build a very simple SwiftUI app:
 3. Tap **Translate**.  
 4. The message will be replaced with its translation.  
 
+---
+
+## Ex 2: Batch Translate a Group of Messages
+
+**Batch Translate** is a SwiftUI application that displays a list of tasks and allows you to translate all of them at once using the Translation framework.  
+
+## The Purpose
+
+Practice working with lists in SwiftUI and learn how to apply translations to multiple items simultaneously.  
+
+## Features
+
+- Display a predefined list of task titles.  
+- Show the tasks in a simple SwiftUI `List`.  
+- Provide a **Translate** button underneath the list.  
+- Translate all tasks in the list when the button is tapped.  
+
+## Exercise
+
+For your next assignment, create a new SwiftUI app containing a list of all the things that you need to do. Put the titles in a simple list. Underneath the list, add a translate button. When the user taps the button, translate each item of the task list using the Translation Session.  
+
+## Requirements
+
+- Create a simple task list app that provides a translate button underneath the list.  
+- When the button is tapped, all the task list items should be translated.  
+- The items should be translated using the Translation Session.  
+
+---
+
 ## Requirements
 
 - Xcode 15 or newer  
@@ -55,3 +85,4 @@ Created by Gianluca Orpello.
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.  
+
